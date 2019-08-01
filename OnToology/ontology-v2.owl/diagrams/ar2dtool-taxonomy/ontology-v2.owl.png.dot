@@ -1,0 +1,52 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "61362c29:16c4d41d67e:-7ff9" "untitled-ontology-3:NonTechnicalChallenge" "untitled-ontology-3:StorageTool" "untitled-ontology-3:Virtual" "untitled-ontology-3:TechnicalChallenge" "untitled-ontology-3:PersonalSkill" "untitled-ontology-3:District" "untitled-ontology-3:SynchronousCommunication" "untitled-ontology-3:FaceToFace" "61362c29:16c4d41d67e:-7ff2" "untitled-ontology-3:Country" "untitled-ontology-3:Continent" "untitled-ontology-3:AnalysisTool" "untitled-ontology-3:UserKnowledge" "untitled-ontology-3:City" "untitled-ontology-3:Artifact" "untitled-ontology-3:Resources" "untitled-ontology-3:UserTraining" "untitled-ontology-3:ComunicationTool" "61362c29:16c4d41d67e:-7ff1" "untitled-ontology-3:Characteristics" "untitled-ontology-3:CulturalCharacteristics" "61362c29:16c4d41d67e:-7fea" "61362c29:16c4d41d67e:-7fe2" "untitled-ontology-3:Skills" "untitled-ontology-3:ArchitectureTool" "untitled-ontology-3:TestTool" "61362c29:16c4d41d67e:-7fe9" "untitled-ontology-3:PersonalCharacteristics" "untitled-ontology-3:ManagementTool" "untitled-ontology-3:Region" "61362c29:16c4d41d67e:-7fe8" "untitled-ontology-3:Comunication" "untitled-ontology-3:Estate" "untitled-ontology-3:DesignTool" "untitled-ontology-3:Timezone" "untitled-ontology-3:PrototypingTool" "61362c29:16c4d41d67e:-7ff0" "untitled-ontology-3:Tools" "untitled-ontology-3:Team" "untitled-ontology-3:CodingTool" "61362c29:16c4d41d67e:-7ff3" "untitled-ontology-3:Email" "untitled-ontology-3:Place" "untitled-ontology-3:DocumentationTool" "untitled-ontology-3:Challenge" "untitled-ontology-3:InstantMessages" "untitled-ontology-3:UserSkill" "untitled-ontology-3:Meeting" "untitled-ontology-3:AsynchronousCommunication" "61362c29:16c4d41d67e:-7feb" "61362c29:16c4d41d67e:-7fe7" "61362c29:16c4d41d67e:-7ff4" "untitled-ontology-3:Member" ; /*classes style*/
+	"untitled-ontology-3:Continent" -> "61362c29:16c4d41d67e:-7ff4" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Continent" -> "untitled-ontology-3:Place" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:AsynchronousCommunication" -> "untitled-ontology-3:Comunication" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:StorageTool" -> "untitled-ontology-3:Tools" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:InstantMessages" -> "untitled-ontology-3:AsynchronousCommunication" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:AnalysisTool" -> "untitled-ontology-3:Tools" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:TestTool" -> "untitled-ontology-3:Tools" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Estate" -> "61362c29:16c4d41d67e:-7ff1" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Estate" -> "untitled-ontology-3:Place" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:UserKnowledge" -> "untitled-ontology-3:Skills" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:CulturalCharacteristics" -> "61362c29:16c4d41d67e:-7ff2" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:CulturalCharacteristics" -> "untitled-ontology-3:Characteristics" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:DocumentationTool" -> "untitled-ontology-3:Tools" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:SynchronousCommunication" -> "untitled-ontology-3:Comunication" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:FaceToFace" -> "untitled-ontology-3:Meeting" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:City" -> "61362c29:16c4d41d67e:-7ff9" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:City" -> "untitled-ontology-3:Place" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Virtual" -> "untitled-ontology-3:Meeting" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:PersonalSkill" -> "61362c29:16c4d41d67e:-7fe9" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:PersonalSkill" -> "untitled-ontology-3:Skills" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Team" -> "61362c29:16c4d41d67e:-7fe7" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:UserSkill" -> "untitled-ontology-3:Skills" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:TechnicalChallenge" -> "61362c29:16c4d41d67e:-7fe2" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:TechnicalChallenge" -> "untitled-ontology-3:Challenge" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Country" -> "61362c29:16c4d41d67e:-7ff3" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Country" -> "untitled-ontology-3:Place" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:ArchitectureTool" -> "untitled-ontology-3:DesignTool" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Timezone" -> "untitled-ontology-3:Place" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:CodingTool" -> "untitled-ontology-3:Tools" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:PrototypingTool" -> "untitled-ontology-3:DesignTool" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:PersonalCharacteristics" -> "61362c29:16c4d41d67e:-7fea" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:PersonalCharacteristics" -> "untitled-ontology-3:Characteristics" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Artifact" -> "untitled-ontology-3:Resources" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:ComunicationTool" -> "untitled-ontology-3:Tools" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:UserTraining" -> "untitled-ontology-3:Skills" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Member" -> "61362c29:16c4d41d67e:-7ff0" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Tools" -> "untitled-ontology-3:Resources" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:District" -> "untitled-ontology-3:Place" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:NonTechnicalChallenge" -> "61362c29:16c4d41d67e:-7feb" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:NonTechnicalChallenge" -> "untitled-ontology-3:Challenge" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Region" -> "61362c29:16c4d41d67e:-7fe8" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Region" -> "untitled-ontology-3:Place" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:DesignTool" -> "untitled-ontology-3:Tools" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Email" -> "untitled-ontology-3:AsynchronousCommunication" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:Meeting" -> "untitled-ontology-3:SynchronousCommunication" [ label = "rdfs:subClassOf" ];
+	"untitled-ontology-3:ManagementTool" -> "untitled-ontology-3:Tools" [ label = "rdfs:subClassOf" ];
+
+}
