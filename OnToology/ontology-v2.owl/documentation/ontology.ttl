@@ -1,0 +1,2267 @@
+@prefix : <http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3> .
+
+<http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3> rdf:type owl:Ontology ;
+                                                                         <http://purl.org/dc/elements/1.1/creator> "Arthur Gomes" ,
+                                                                                                                   "Rodrigo Gusmão" ;
+                                                                         <http://purl.org/dc/elements/1.1/description> "Distributed Knowledge Development Ontology - DKDOnto" ;
+                                                                         <http://purl.org/dc/elements/1.1/publisher> ""^^xsd:anyURI ;
+                                                                         <http://purl.org/dc/elements/1.1/rights> "http://creativecommons.org/licenses/by/3.0/" ;
+                                                                         <http://purl.org/dc/elements/1.1/title> "DKDOnto" .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/rights
+<http://purl.org/dc/elements/1.1/rights> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AssistMember
+:AssistMember rdf:type owl:ObjectProperty ;
+              rdfs:domain :Artifact ;
+              rdfs:range :Member ;
+              rdfs:comment "Membro Assistente"@pt ;
+              rdfs:label "Assist Member"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AssistRoles
+:AssistRoles rdf:type owl:ObjectProperty ;
+             rdfs:domain :Skills ;
+             rdfs:range :Role ;
+             rdfs:comment "Regras auxiliares"@pt ;
+             rdfs:label "Assist Roles"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AssistTask
+:AssistTask rdf:type owl:ObjectProperty ;
+            rdfs:domain :Artifact ,
+                        :BestPractice ,
+                        :Characteristics ,
+                        :Skills ;
+            rdfs:range :Task ;
+            rdfs:comment "Tarefas auxiliares"@pt ;
+            rdfs:label "Assist Task"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BelongPlace
+:BelongPlace rdf:type owl:ObjectProperty ;
+             rdfs:domain :CulturalCharacteristics ;
+             rdfs:range :Place ;
+             rdfs:comment "Pertence ao lugar"@pt ;
+             rdfs:label "Belong Place"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPracticeOf
+:BestPracticeOf rdf:type owl:ObjectProperty ;
+                owl:inverseOf :HasBestPractice ;
+                rdfs:domain :BestPractice ;
+                rdfs:range :Challenge ,
+                           :Project ;
+                rdfs:comment "Melhor prática de" ;
+                rdfs:label "Best Practice Of" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CharacteristicsOf
+:CharacteristicsOf rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Characteristics ;
+                   rdfs:range :Member ;
+                   rdfs:comment "Caracteristicas de" ;
+                   rdfs:label "Characteristics Of" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ComunicatesMember
+:ComunicatesMember rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Member ;
+                   rdfs:range :Member ;
+                   rdfs:comment "Comunica ao membro"@pt ;
+                   rdfs:label "Comunicates Member"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CreateArtifact
+:CreateArtifact rdf:type owl:ObjectProperty ;
+                rdfs:domain :Meeting ,
+                            :Member ,
+                            :ProcessActivity ,
+                            :ProjectActivity ,
+                            :Task ;
+                rdfs:range :Artifact ;
+                rdfs:comment "Cria artefato"@pt ;
+                rdfs:label "Create Artifact"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DefineRole
+:DefineRole rdf:type owl:ObjectProperty ;
+            rdfs:domain :Methodology ,
+                        :ProcessActivity ,
+                        :ProcessPhase ,
+                        :ProjectActivity ,
+                        :ProjectPhase ;
+            rdfs:range :Role ;
+            rdfs:comment "Define regra"@pt ;
+            rdfs:label "Define Role"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EffectivenessOf
+:EffectivenessOf rdf:type owl:ObjectProperty ;
+                 rdfs:comment "Eficácia do" ;
+                 rdfs:label "Effectiveness Of" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email_Of
+:Email_Of rdf:type owl:ObjectProperty ;
+          rdfs:domain :Email ;
+          rdfs:range :Member ;
+          rdfs:comment "Email de" ;
+          rdfs:label "Email Of" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HappensInPlace
+:HappensInPlace rdf:type owl:ObjectProperty ;
+                rdfs:domain :FaceToFace ;
+                rdfs:range :Place ;
+                rdfs:comment "Acontece em determinado local"@pt ;
+                rdfs:label "Happens In Place"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice
+:HasBestPractice rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Challenge ,
+                             :Project ;
+                 rdfs:range :BestPractice ;
+                 rdfs:comment "Tem melhores praticas"@pt ;
+                 rdfs:label "Has Best Practice"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasChallenge
+:HasChallenge rdf:type owl:ObjectProperty ;
+              rdfs:domain :Project ;
+              rdfs:range :Challenge ;
+              rdfs:comment "tem desafio"@pt ;
+              rdfs:label "Has Challenge"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasCharacteristics
+:HasCharacteristics rdf:type owl:ObjectProperty ;
+                    owl:inverseOf :CharacteristicsOf ;
+                    rdfs:domain :Member ;
+                    rdfs:range :Characteristics ;
+                    rdfs:comment "tem caracteristicas"@pt ;
+                    rdfs:label "Has Characteristics"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasCity
+:HasCity rdf:type owl:ObjectProperty ;
+         rdfs:domain :District ;
+         rdfs:range :City ;
+         rdfs:comment "Tem cidade"@pt ;
+         rdfs:label "Has City"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasContinent
+:HasContinent rdf:type owl:ObjectProperty ;
+              rdfs:domain :Country ;
+              rdfs:range :Continent ;
+              rdfs:comment "tem continente"@pt ;
+              rdfs:label "Has Continent"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasCulturalCharacteristics
+:HasCulturalCharacteristics rdf:type owl:ObjectProperty ;
+                            rdfs:domain :Place ;
+                            rdfs:range :CulturalCharacteristics ;
+                            rdfs:comment "tem caracteristicas culturais"@pt ;
+                            rdfs:label "Has Cultural Characteristics"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness
+:HasEffectiveness rdf:type owl:ObjectProperty ;
+                  rdfs:domain :BestPractice ;
+                  rdfs:range :Effectiveness ;
+                  rdfs:comment "tem efetividade"@pt ;
+                  rdfs:label "Has Effectiveness"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail
+:HasEmail rdf:type owl:ObjectProperty ;
+          owl:inverseOf :Email_Of ;
+          rdfs:domain :Member ;
+          rdfs:range :Email ;
+          rdfs:comment "tem email"@pt ;
+          rdfs:label "Has Email"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEstate
+:HasEstate rdf:type owl:ObjectProperty ;
+           rdfs:domain :City ;
+           rdfs:range :Estate ;
+           rdfs:comment "Tem Estado"@pt ;
+           rdfs:label "Has Estate"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasLanguage
+:HasLanguage rdf:type owl:ObjectProperty ;
+             owl:inverseOf :LanguageOf ;
+             rdfs:domain :Comunication ,
+                         :Place ;
+             rdfs:range :Language ;
+             rdfs:comment "Tem Linguagem"@pt ;
+             rdfs:label "Has Language"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasMember
+:HasMember rdf:type owl:ObjectProperty ;
+           owl:inverseOf :IsPartOf ;
+           rdfs:domain :Team ;
+           rdfs:range :Member ;
+           rdfs:comment "Tem Membro"@pt ;
+           rdfs:label "Has Member"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProcessActivity
+:HasProcessActivity rdf:type owl:ObjectProperty ;
+                    rdfs:domain :ProcessPhase ;
+                    rdfs:range :ProcessActivity ;
+                    rdfs:comment "Tem atividade de processo" ;
+                    rdfs:label "Has Process Activity" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProcessPhase
+:HasProcessPhase rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :ProcessPhaseOf ;
+                 rdfs:domain :ProjectPhase ;
+                 rdfs:range :ProcessPhase ;
+                 rdfs:comment "Tem fases de processo"@pt ;
+                 rdfs:label "Has Process Phase"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProjectActivity
+:HasProjectActivity rdf:type owl:ObjectProperty ;
+                    rdfs:domain :ProjectPhase ;
+                    rdfs:range :ProjectActivity ;
+                    rdfs:comment "Tem atividade de projeto" ;
+                    rdfs:label "Has Project Activity" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProjectPhase
+:HasProjectPhase rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Project ;
+                 rdfs:range :ProjectPhase ;
+                 rdfs:comment "tem fases de projeto"@pt ;
+                 rdfs:label "Has Project Phase"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasRegion
+:HasRegion rdf:type owl:ObjectProperty ;
+           owl:inverseOf :Region_Of ;
+           rdfs:domain :Country ;
+           rdfs:range :Region ;
+           rdfs:comment "Tem região"@pt ;
+           rdfs:label "Has Region"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasRole
+:HasRole rdf:type owl:ObjectProperty ;
+         owl:inverseOf :RoleOf ;
+         rdfs:domain :Methodology ,
+                     :ProcessActivity ,
+                     :Project ,
+                     :ProjectActivity ;
+         rdfs:range :Role ;
+         rdfs:comment "tem função"@pt ;
+         rdfs:label "Has Role"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSchedule
+:HasSchedule rdf:type owl:ObjectProperty ;
+             owl:inverseOf :Schedule_Of ;
+             rdfs:domain :Member ,
+                         :ProcessActivity ,
+                         :ProcessPhase ,
+                         :Project ,
+                         :ProjectActivity ,
+                         :ProjectPhase ;
+             rdfs:range :Schedule ;
+             rdfs:comment "tem cronograma"@pt ;
+             rdfs:label "Has Schedule"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills
+:HasSkills rdf:type owl:ObjectProperty ;
+           rdfs:domain :Member ;
+           rdfs:range :Skills ;
+           rdfs:comment "tem habilidade"@pt ;
+           rdfs:label "Has Skills"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTask
+:HasTask rdf:type owl:ObjectProperty ;
+         rdfs:domain :ProcessActivity ,
+                     :ProcessPhase ,
+                     :ProjectActivity ,
+                     :ProjectPhase ;
+         rdfs:range :Task ;
+         rdfs:comment "tem tarefa"@pt ;
+         rdfs:label "Has Task"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTeam
+:HasTeam rdf:type owl:ObjectProperty ;
+         rdfs:domain :Project ;
+         rdfs:range :Team ;
+         rdfs:comment "tem time"@pt ;
+         rdfs:label "Has Team"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTimeZone
+:HasTimeZone rdf:type owl:ObjectProperty ;
+             rdfs:domain :City ;
+             rdfs:range :Timezone ;
+             rdfs:comment "tem fuso horario"@pt ;
+             rdfs:label "Has Time Zone"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTraining
+:HasTraining rdf:type owl:ObjectProperty ;
+             rdfs:domain :Member ;
+             rdfs:range :Training ;
+             rdfs:comment "Tem Treinamento"@pt ;
+             rdfs:label "Has Training"@pt .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasVersion
+:HasVersion rdf:type owl:ObjectProperty ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Artifact
+                                        :Tools
+                                      )
+                        ] ;
+            rdfs:range :Version ;
+            rdfs:comment "tem versão"@pt ;
+            rdfs:label "Has Version"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasWorkspace
+:HasWorkspace rdf:type owl:ObjectProperty ;
+              rdfs:domain :Project ;
+              rdfs:range :Workspace ;
+              rdfs:comment "tem area de trabalho"@pt ;
+              rdfs:label "Has Workspace"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace
+:IsInAPlace rdf:type owl:ObjectProperty ;
+            rdfs:domain :Member ;
+            rdfs:range :Place ;
+            rdfs:comment "Está em um lugar"@pt ;
+            rdfs:label "Is In A Place"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInARegion
+:IsInARegion rdf:type owl:ObjectProperty ;
+             rdfs:domain :Estate ;
+             rdfs:range :Region ;
+             rdfs:comment "Está em uma região"@pt ;
+             rdfs:label "Is in a Region"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsPartOf
+:IsPartOf rdf:type owl:ObjectProperty ;
+          rdfs:domain :Member ;
+          rdfs:range :Team ;
+          rdfs:comment "Faz parte do" ;
+          rdfs:label "Is Part of" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LanguageOf
+:LanguageOf rdf:type owl:ObjectProperty ;
+            rdfs:domain :Language ;
+            rdfs:range :Comunication ,
+                       :Place ;
+            rdfs:comment "Linguagem De " ;
+            rdfs:label "Language Of" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ParticipateMeeting
+:ParticipateMeeting rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Member ;
+                    rdfs:range :Meeting ;
+                    rdfs:comment "Participa de conversa"@pt ;
+                    rdfs:label "Participate Meeting"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PerformTask
+:PerformTask rdf:type owl:ObjectProperty ;
+             rdfs:domain :Member ;
+             rdfs:range :Task ;
+             rdfs:comment "executa tarefa"@pt ;
+             rdfs:label "Perform Task"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PlayRole
+:PlayRole rdf:type owl:ObjectProperty ;
+          rdfs:domain :Member ;
+          rdfs:range :Role ;
+          rdfs:comment "exerce função"@pt ;
+          rdfs:label "Play Role"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhaseOf
+:ProcessPhaseOf rdf:type owl:ObjectProperty ;
+                rdfs:domain :ProcessPhase ;
+                rdfs:range :ProjectPhase ;
+                rdfs:comment "Fase do processo de" ;
+                rdfs:label "Process Phase Of" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region_Of
+:Region_Of rdf:type owl:ObjectProperty ;
+           rdfs:domain :Region ;
+           rdfs:range :Country ;
+           rdfs:comment "Região de" ;
+           rdfs:label "Region Of" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ReportBestPractice
+:ReportBestPractice rdf:type owl:ObjectProperty ;
+                    rdfs:domain :Member ;
+                    rdfs:range :BestPractice ;
+                    rdfs:comment "reporta uma boa pratica"@pt ;
+                    rdfs:label "Report Best Practice"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ReportChallenge
+:ReportChallenge rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Member ;
+                 rdfs:range :Challenge ;
+                 rdfs:comment "Reporta desafios"@pt ;
+                 rdfs:label "Report Challenge"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RoleOf
+:RoleOf rdf:type owl:ObjectProperty ;
+        rdfs:domain :Role ;
+        rdfs:range :Methodology ,
+                   :ProcessActivity ,
+                   :Project ,
+                   :ProjectActivity ;
+        rdfs:comment "Papel de" ;
+        rdfs:label "Role Of" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule_Of
+:Schedule_Of rdf:type owl:ObjectProperty ;
+             rdfs:domain :Schedule ;
+             rdfs:range :Member ,
+                        :ProcessActivity ,
+                        :ProcessPhase ,
+                        :Project ,
+                        :ProjectActivity ,
+                        :ProjectPhase ;
+             rdfs:comment "Horario de" ;
+             rdfs:label """Schedule Of
+""" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SelectTools
+:SelectTools rdf:type owl:ObjectProperty ;
+             rdfs:domain :Member ;
+             rdfs:range :Tools ;
+             rdfs:comment "seleciona ferramentas"@pt ;
+             rdfs:label "Select Tools"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage
+:SpeakLanguage rdf:type owl:ObjectProperty ;
+               rdfs:domain :Member ;
+               rdfs:range :Language ;
+               rdfs:comment "fala idioma"@pt ;
+               rdfs:label "Speak Language"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#StoreResource
+:StoreResource rdf:type owl:ObjectProperty ;
+               rdfs:domain :Workspace ;
+               rdfs:range :Resources ;
+               rdfs:comment "armazenar recursos"@pt ;
+               rdfs:label "Store Resource"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SupportToAvoidChallenge
+:SupportToAvoidChallenge rdf:type owl:ObjectProperty ;
+                         rdfs:domain :BestPractice ,
+                                     :FaceToFace ,
+                                     :ProcessActivity ,
+                                     :Resources ,
+                                     :Skills ;
+                         rdfs:range :Challenge ;
+                         rdfs:comment "Apoio para evitar o desafio"@pt ;
+                         rdfs:label "Support to Avoid Challenge"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SupportToDefineTasks
+:SupportToDefineTasks rdf:type owl:ObjectProperty ;
+                      rdfs:domain :Member ,
+                                  :Skills ;
+                      rdfs:range :Task ;
+                      rdfs:comment "Suporte para definir tarefas"@pt ;
+                      rdfs:label "Support to Define Tasks"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SupportToSolveChallenge
+:SupportToSolveChallenge rdf:type owl:ObjectProperty ;
+                         rdfs:domain :BestPractice ,
+                                     :Meeting ,
+                                     :ProcessActivity ,
+                                     :Resources ,
+                                     :Skills ;
+                         rdfs:range :Challenge ;
+                         rdfs:comment "Suporte para resolver desafios"@pt ;
+                         rdfs:label "Support to Solve Challenge"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Talk
+:Talk rdf:type owl:ObjectProperty ;
+      rdfs:domain :Meeting ;
+      rdfs:range :Member ;
+      rdfs:comment "Fala"@pt ;
+      rdfs:label "Talk"@pt .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseArtifact
+:UseArtifact rdf:type owl:ObjectProperty ;
+             rdfs:domain :Member ,
+                         :ProcessActivity ,
+                         :Task ,
+                         :Tools ;
+             rdfs:range :Artifact ;
+             rdfs:comment "usa artefato"@pt ;
+             rdfs:label "Use Artifact"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseBestPractice
+:UseBestPractice rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Member ;
+                 rdfs:range :BestPractice ;
+                 rdfs:comment "usa melhor pratica"@pt ;
+                 rdfs:label "Use Best Practice"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseComunicationTool
+:UseComunicationTool rdf:type owl:ObjectProperty ;
+                     rdfs:domain :Comunication ,
+                                 :Member ;
+                     rdfs:range :ComunicationTool ;
+                     rdfs:comment "usa ferramenta de comunicação"@pt ;
+                     rdfs:label "Use Comunication Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseMethodology
+:UseMethodology rdf:type owl:ObjectProperty ;
+                rdfs:domain :ProcessPhase ,
+                            :Project ,
+                            :ProjectPhase ;
+                rdfs:range :Methodology ;
+                rdfs:comment "usa methodologia"@pt ;
+                rdfs:label "Use Methodology"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UsePhase
+:UsePhase rdf:type owl:ObjectProperty ;
+          rdfs:domain :Methodology ;
+          rdfs:range :ProcessPhase ,
+                     :ProjectPhase ;
+          rdfs:comment "usa fase"@pt ;
+          rdfs:label "Use Phase"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseResource
+:UseResource rdf:type owl:ObjectProperty ;
+             rdfs:domain :Member ,
+                         :Project ;
+             rdfs:range :Resources ;
+             rdfs:comment "Usa Recurso"@pt ;
+             rdfs:label "Use Resource"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseTool
+:UseTool rdf:type owl:ObjectProperty ;
+         rdfs:domain :Member ,
+                     :Tools ;
+         rdfs:range :Tools ;
+         rdfs:comment "Usa Ferramenta"@pt ;
+         rdfs:label "Use Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#'Time_Zone_Of'
+<http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#'Time_Zone_Of'> rdf:type owl:ObjectProperty ;
+                                                                                       owl:inverseOf :HasTimeZone ;
+                                                                                       rdfs:domain :Timezone ;
+                                                                                       rdfs:range :City ;
+                                                                                       rdfs:comment "Fuso horário de" ;
+                                                                                       rdfs:label "Time Zone Of" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DateTime
+:DateTime rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Schedule ;
+          rdfs:range xsd:string ;
+          rdfs:comment "Date time" ;
+          rdfs:label " Date time" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description
+:Description rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Challenge ,
+                         :Characteristics ,
+                         :Resources ,
+                         :Schedule ;
+             rdfs:range xsd:string ;
+             rdfs:comment "Descrição"@pt ;
+             rdfs:label "Description" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MemberEmail
+:MemberEmail rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Member ;
+             rdfs:range xsd:string ;
+             rdfs:comment "email do membro"@pt ;
+             rdfs:label "Member email" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value
+:Value rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Effectiveness ;
+       rdfs:range xsd:double ;
+       rdfs:comment "Valor" ;
+       rdfs:label "Value" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AnalysisTool
+:AnalysisTool rdf:type owl:Class ;
+              rdfs:subClassOf :Tools ;
+              rdfs:comment "Ferramenta de analise"@pt ;
+              rdfs:label "Analysis Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ArchitectureTool
+:ArchitectureTool rdf:type owl:Class ;
+                  rdfs:subClassOf :DesignTool ;
+                  rdfs:comment "Ferramenta de Arquitetura"@pt ;
+                  rdfs:label "Architecture Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Artifact
+:Artifact rdf:type owl:Class ;
+          rdfs:subClassOf :Resources ;
+          rdfs:comment "Categoria de recursos"@pt ;
+          rdfs:label "Artifact"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AsynchronousCommunication
+:AsynchronousCommunication rdf:type owl:Class ;
+                           rdfs:subClassOf :Comunication ;
+                           rdfs:comment "Asynchronous_Communication definem os tipos de comunicação que o contato entre o locutor e o ouvinte é feito em tempos distintos"@pt ;
+                           rdfs:label "Asynchronous Communication"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice
+:BestPractice rdf:type owl:Class ;
+              rdfs:comment "Best Pratices são as praticas recomendadas a se tomar para um determinado Challenge"@pt ;
+              rdfs:label "Best Practice"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge
+:Challenge rdf:type owl:Class ;
+           rdfs:comment "Challenge são os desafios existentes em um projeto DDS"@pt ;
+           rdfs:label "Challenge"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Characteristics
+:Characteristics rdf:type owl:Class ;
+                 rdfs:comment "Characteristics é um elemento que ajuda na construção de uma ideia, conceito e da noção de alguém ou alguma coisa. no contexto da ontologia são elementos que definem determinado membro do projeto."@pt ;
+                 rdfs:label "Characteristics"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City
+:City rdf:type owl:Class ;
+      rdfs:subClassOf :Place ,
+                      [ rdf:type owl:Class ;
+                        owl:complementOf [ owl:intersectionOf ( :Continent
+                                                                :Estate
+                                                                :Region
+                                                              ) ;
+                                           rdf:type owl:Class
+                                         ]
+                      ] ;
+      rdfs:comment "Define em que cidade o individuo se encontra"@pt ;
+      rdfs:label "City"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CodingTool
+:CodingTool rdf:type owl:Class ;
+            rdfs:subClassOf :Tools ;
+            rdfs:comment "Ferramenta de codificação"@pt ;
+            rdfs:label "Coding Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Comunication
+:Comunication rdf:type owl:Class ;
+              rdfs:comment "Comunicação definem as classes de interação vocal ou por escrito entre os membros dos projetos"@pt ;
+              rdfs:label "Comunication"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ComunicationTool
+:ComunicationTool rdf:type owl:Class ;
+                  rdfs:subClassOf :Tools ;
+                  rdfs:comment "Ferramenta de Comunicação"@pt ;
+                  rdfs:label "Comunication Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent
+:Continent rdf:type owl:Class ;
+           rdfs:subClassOf :Place ,
+                           [ rdf:type owl:Class ;
+                             owl:complementOf :Country
+                           ] ;
+           rdfs:comment "Define em que continente o individuo se encontra"@pt ;
+           rdfs:label "Continent"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country
+:Country rdf:type owl:Class ;
+         rdfs:subClassOf :Place ,
+                         [ rdf:type owl:Class ;
+                           owl:complementOf :Continent
+                         ] ;
+         rdfs:comment "Define em que país o individuo se encontra"@pt ;
+         rdfs:label "Country"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CulturalCharacteristics
+:CulturalCharacteristics rdf:type owl:Class ;
+                         rdfs:subClassOf :Characteristics ,
+                                         [ rdf:type owl:Class ;
+                                           owl:complementOf :PersonalCharacteristics
+                                         ] ;
+                         rdfs:comment "CulturalCharacteristics é uma subclasse de Characteristics onde por sua vez define detalhes culturais dos membros"@pt ;
+                         rdfs:label "Cultural Characteristics"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DesignTool
+:DesignTool rdf:type owl:Class ;
+            rdfs:subClassOf :Tools ;
+            rdfs:comment "Ferramenta de Design"@pt ;
+            rdfs:label "Design Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#District
+:District rdf:type owl:Class ;
+          rdfs:subClassOf :Place ;
+          rdfs:comment "Define em que distrito o individuo se encontra"@pt ;
+          rdfs:label "District"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DocumentationTool
+:DocumentationTool rdf:type owl:Class ;
+                   rdfs:subClassOf :Tools ;
+                   rdfs:comment "Ferramenta de documentação"@pt ;
+                   rdfs:label "Documentation Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness
+:Effectiveness rdf:type owl:Class ;
+               owl:disjointWith :Role ,
+                                :Skills ;
+               rdfs:comment "Effectiveness define o quanto uma best pratice obteve de efetividade sobre determinado challenge"@pt ;
+               rdfs:label "Effectiveness"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email
+:Email rdf:type owl:Class ;
+       rdfs:subClassOf :AsynchronousCommunication ;
+       rdfs:comment "email é um tipo de comunicação assincrona"@pt ;
+       rdfs:label "Email"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate
+:Estate rdf:type owl:Class ;
+        rdfs:subClassOf :Place ,
+                        [ rdf:type owl:Class ;
+                          owl:complementOf :City
+                        ] ;
+        rdfs:comment "Define em que estado o individuo se encontra"@pt ;
+        rdfs:label "Estate"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#FaceToFace
+:FaceToFace rdf:type owl:Class ;
+            rdfs:subClassOf :Meeting ;
+            rdfs:comment "Face to face é uma maneira de se aplicar o meeting"@pt ;
+            rdfs:label "Face to Face"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#InstantMessages
+:InstantMessages rdf:type owl:Class ;
+                 rdfs:subClassOf :AsynchronousCommunication ;
+                 rdfs:comment "Instant Menssages é um meio de comunicação assincrona"@pt ;
+                 rdfs:label "Instant Menssages"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language
+:Language rdf:type owl:Class ;
+          owl:disjointWith :Role ,
+                           :Version ;
+          rdfs:comment "Define o idioma falado pelo membro"@pt ;
+          rdfs:label "Language"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ManagementTool
+:ManagementTool rdf:type owl:Class ;
+                rdfs:subClassOf :Tools ;
+                rdfs:comment "Ferramenta de gerenciamento"@pt ;
+                rdfs:label "Management Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Meeting
+:Meeting rdf:type owl:Class ;
+         rdfs:subClassOf :SynchronousCommunication ;
+         rdfs:comment "Meeting é um tipo de comunicação sincrona"@pt ;
+         rdfs:label "Meeting"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member
+:Member rdf:type owl:Class ;
+        rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                                 owl:complementOf :Team
+                                               ]
+                                               [ rdf:type owl:Restriction ;
+                                                 owl:onProperty :HasEmail ;
+                                                 owl:allValuesFrom :Email
+                                               ]
+                                             ) ;
+                          rdf:type owl:Class
+                        ] ;
+        rdfs:comment "Member é a entidade que representa uma pessoa envolvida ou que pode se envolver em um determinado projeto."@pt ;
+        rdfs:label "Member"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Methodology
+:Methodology rdf:type owl:Class ;
+             rdfs:comment "Define o conjunto de regras aplicados em determinada atividade"@pt ;
+             rdfs:label "Methodology"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge
+:NonTechnicalChallenge rdf:type owl:Class ;
+                       rdfs:subClassOf :Challenge ,
+                                       [ rdf:type owl:Class ;
+                                         owl:complementOf :TechnicalChallenge
+                                       ] ;
+                       rdfs:comment "NonTechnicalChallenge refere-se ao desafios ligados a assuntos humanos do desenvolvimento de um projeto, onde esses por sua vez fogem do cunho tecnologico."@pt ;
+                       rdfs:label "Non Technical Challenge"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalCharacteristics
+:PersonalCharacteristics rdf:type owl:Class ;
+                         rdfs:subClassOf :Characteristics ,
+                                         [ rdf:type owl:Class ;
+                                           owl:complementOf :CulturalCharacteristics
+                                         ] ;
+                         rdfs:comment "PersonalCharacteristics é uma subclasse de Characteristics onde por sua vez define detalhes pessoais dos membros"@pt ;
+                         rdfs:label "Personal Characteristics"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalSkill
+:PersonalSkill rdf:type owl:Class ;
+               rdfs:subClassOf :Skills ,
+                               [ rdf:type owl:Class ;
+                                 owl:complementOf :UserSkill
+                               ] ;
+               rdfs:comment "Habilidades Pessoais"@pt ;
+               rdfs:label "Personal Skill"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place
+:Place rdf:type owl:Class ;
+       owl:disjointWith :Role ,
+                        :Version ;
+       rdfs:comment "Define o posicionamento de um certo individuo"@pt ;
+       rdfs:label "Place"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity
+:ProcessActivity rdf:type owl:Class ;
+                 rdfs:comment "Define as atividade contidas em uma determinada fase de um processo"@pt ;
+                 rdfs:label "Process Activity"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase
+:ProcessPhase rdf:type owl:Class ;
+              rdfs:comment "descreve as fases de um processo"@pt ;
+              rdfs:label "Process Phase"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project
+:Project rdf:type owl:Class ;
+         rdfs:comment "Define e agrega todos as informações de uma atividade realizada que tem como objetivo um produto final"@pt ;
+         rdfs:label "Project"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity
+:ProjectActivity rdf:type owl:Class ;
+                 rdfs:comment "Define as atividades realizadas em uma fase de projeto"@pt ;
+                 rdfs:label "Project Activity"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase
+:ProjectPhase rdf:type owl:Class ;
+              rdfs:comment "Define as fases dos projetos"@pt ;
+              rdfs:label "Project Phase"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PrototypingTool
+:PrototypingTool rdf:type owl:Class ;
+                 rdfs:subClassOf :DesignTool ;
+                 rdfs:comment "Ferramenta de prototipo"@pt ;
+                 rdfs:label "Prototyping Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region
+:Region rdf:type owl:Class ;
+        rdfs:subClassOf :Place ,
+                        [ rdf:type owl:Class ;
+                          owl:complementOf :District
+                        ] ;
+        rdfs:comment "Define em que região o individuo se encontra"@pt ;
+        rdfs:label "Region"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Resources
+:Resources rdf:type owl:Class ;
+           rdfs:comment "Define os recursos utilizados no projeto"@pt ;
+           rdfs:label "Resources"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role
+:Role rdf:type owl:Class ;
+      rdfs:comment "Função"@pt ;
+      rdfs:label "Role"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule
+:Schedule rdf:type owl:Class ;
+          rdfs:comment "Prazo"@pt ;
+          rdfs:label "Schedule"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills
+:Skills rdf:type owl:Class ;
+        rdfs:comment "Habilidades"@pt ;
+        rdfs:label "Skills"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#StorageTool
+:StorageTool rdf:type owl:Class ;
+             rdfs:subClassOf :Tools ;
+             rdfs:comment "Ferramenta de armazenamento"@pt ;
+             rdfs:label "Storage Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SynchronousCommunication
+:SynchronousCommunication rdf:type owl:Class ;
+                          rdfs:subClassOf :Comunication ;
+                          rdfs:comment "Synchronous_Communication definem os tipos de comunicação que o contato entre o locutor e o ouvinte é feito simultaneamente"@pt ;
+                          rdfs:label "Synchronous Communication"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Task
+:Task rdf:type owl:Class ;
+      rdfs:comment "Tarefas"@pt ;
+      rdfs:label "Task"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team
+:Team rdf:type owl:Class ;
+      rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Class ;
+                                               owl:complementOf :Member
+                                             ]
+                                             [ rdf:type owl:Restriction ;
+                                               owl:onProperty :HasMember ;
+                                               owl:allValuesFrom :Member
+                                             ]
+                                           ) ;
+                        rdf:type owl:Class
+                      ] ;
+      rdfs:comment "Time"@pt ;
+      rdfs:label "Team"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TechnicalChallenge
+:TechnicalChallenge rdf:type owl:Class ;
+                    rdfs:subClassOf :Challenge ,
+                                    [ rdf:type owl:Class ;
+                                      owl:complementOf :NonTechnicalChallenge
+                                    ] ;
+                    rdfs:comment "TechnicalChallenge são os desafios diretamente relacionados ao uso de tecnologia"@pt ;
+                    rdfs:label "Technical Challenge"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TestTool
+:TestTool rdf:type owl:Class ;
+          rdfs:subClassOf :Tools ;
+          rdfs:comment "Ferramenta de Teste"@pt ;
+          rdfs:label "Test Tool"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Timezone
+:Timezone rdf:type owl:Class ;
+          rdfs:subClassOf :Place ;
+          rdfs:comment "Define em que fuso horário o individuo se encontra"@pt ;
+          rdfs:label "Timezone"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools
+:Tools rdf:type owl:Class ;
+       rdfs:subClassOf :Resources ;
+       rdfs:comment "Categoria de recursos"@pt ;
+       rdfs:label "Tools"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Training
+:Training rdf:type owl:Class ;
+          rdfs:comment "Treino"@pt ;
+          rdfs:label "Traning"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge
+:UserKnowledge rdf:type owl:Class ;
+               rdfs:subClassOf :Skills ;
+               rdfs:comment "ato de perceber ou compreender por meio da razão e/ou da experiência."@pt ;
+               rdfs:label "User Knowledge"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill
+:UserSkill rdf:type owl:Class ;
+           rdfs:subClassOf :Skills ;
+           rdfs:comment "Habilidades pessoais"@pt ;
+           rdfs:label "User Skill"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserTraining
+:UserTraining rdf:type owl:Class ;
+              rdfs:subClassOf :Skills ;
+              rdfs:comment "Treinamento pessoais"@pt ;
+              rdfs:label "User Training"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Version
+:Version rdf:type owl:Class ;
+         rdfs:comment "Versão"@pt ;
+         rdfs:label "Version"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Virtual
+:Virtual rdf:type owl:Class ;
+         rdfs:subClassOf :Meeting ;
+         rdfs:comment "Virtual é uma maneira de se aplicar o meeting"@pt ;
+         rdfs:label "Virtual"@en .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Workspace
+:Workspace rdf:type owl:Class ;
+           rdfs:comment "Area de trabalho"@pt ;
+           rdfs:label "Workspace"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ART001
+:ART001 rdf:type owl:NamedIndividual ,
+                 :Artifact .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Africa
+:Africa rdf:type owl:NamedIndividual ,
+                 :Continent .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Analista_de_Testes_Certificado
+:Analista_de_Testes_Certificado rdf:type owl:NamedIndividual ,
+                                         :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Android_Development
+:Android_Development rdf:type owl:NamedIndividual ,
+                              :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre
+:Arthur_Alexandre rdf:type owl:NamedIndividual ,
+                           :Member ;
+                  :HasCharacteristics :CC0001 ,
+                                      :PC0001 ;
+                  :HasEmail <http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#arthurkbe@gmail.com> ;
+                  :HasSkills :Android_Development ,
+                             :Backend_Development ,
+                             :PHPProgramming ,
+                             :PostgreSQL ,
+                             :WebDevelopment ;
+                  :IsInAPlace :Garanhuns ;
+                  :SpeakLanguage :Portuguese .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Asia
+:Asia rdf:type owl:NamedIndividual ,
+               :Continent .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Asp.NET
+:Asp.NET rdf:type owl:NamedIndividual ,
+                  :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Australia
+:Australia rdf:type owl:NamedIndividual ,
+                    :Continent .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BC
+:BC rdf:type owl:NamedIndividual ,
+             :Estate .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP001
+:BP001 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF001 ;
+       :Description "Training sessions on cultural differences with all members." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP002
+:BP002 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF002 ;
+       :Description "Implementation of techniques for knowledge transfer among members." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP003
+:BP003 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF003 ;
+       :Description "Scheduling of face-to-face meetings in times reasonably compatible with all members aiming a better integration." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP004
+:BP004 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF004 ;
+       :Description "Analyse the hierarchy of problems, so as to determine if one problem is led by another and from that identify risks." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP005
+:BP005 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF005 ;
+       :Description "Perform risk management individually and analyse the impact over the hierarchy." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP006
+:BP006 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF006 ;
+       :Description "Evaluate each team member so a precise picture of their skills may be obtained." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP007
+:BP007 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF007 ;
+       :Description "Delegation of tasks according to each member's knowledge and interests, whenever possible." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP008
+:BP008 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF008 ;
+       :Description "Interview best members of each team, so as to delegate the rights tasks according to their culture and skills." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP009
+:BP009 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF009 ;
+       :Description "Analyse each team's time zone, so as to keep the project running 24/7." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP010
+:BP010 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF010 ;
+       :Description "Keep documentation of each team up-to-date and available to all members of the project in order to minimize the number of travels and meetings." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP011
+:BP011 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF011 ;
+       :Description "Use an UML extension model." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP012
+:BP012 rdf:type owl:NamedIndividual ,
+                :BestPractice ;
+       :HasEffectiveness :EFF012 ;
+       :Description "Assign a leader for each team, who are to be responsible for the communication among all teams." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Backend_Development
+:Backend_Development rdf:type owl:NamedIndividual ,
+                              :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Brazil
+:Brazil rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :HasContinent :South_America ;
+        :HasRegion :Midwest ,
+                   :North ,
+                   :Northeast ,
+                   :South ,
+                   :Southeast .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Bruce_Straight
+:Bruce_Straight rdf:type owl:NamedIndividual ,
+                         :Member ;
+                :HasEmail :bruce.straight--gmail.com ;
+                :HasSkills :Confused ,
+                           :Database_Administrator ,
+                           :Oracle-OCA ,
+                           :Oracle-OCE ,
+                           :Oracle-OCM ,
+                           :PHPProgramming ,
+                           :SQL ,
+                           :SQLServer ;
+                :IsInAPlace :Vancouver ;
+                :SpeakLanguage :English .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CC0001
+:CC0001 rdf:type owl:NamedIndividual ,
+                 :CulturalCharacteristics ;
+        :Description "Your religion does not allow you to eat meat" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming
+:C_Programming rdf:type owl:NamedIndividual ,
+                        :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Sharp-Programming
+:C_Sharp-Programming rdf:type owl:NamedIndividual ,
+                              :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Campina_Grande
+:Campina_Grande rdf:type owl:NamedIndividual ,
+                         :City ;
+                :HasEstate :Paraiba .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Case_Study
+:Case_Study rdf:type owl:NamedIndividual ,
+                     :ProjectPhase ;
+            :HasProcessPhase :Talk_Customer ;
+            :HasProjectActivity :Requirements_Gathering .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Certified_Professional_for_Requirements_Engineering
+:Certified_Professional_for_Requirements_Engineering rdf:type owl:NamedIndividual ,
+                                                              :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Chief_Technical_Officer
+:Chief_Technical_Officer rdf:type owl:NamedIndividual ,
+                                  :UserSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CitixMobile
+:CitixMobile rdf:type owl:NamedIndividual ,
+                      :Project ;
+             :HasProjectPhase :Case_Study ;
+             :HasTeam :TeamRodrigo ;
+             :UseMethodology :Scrum ;
+             :UseResource :eclipse .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Confused
+:Confused rdf:type owl:NamedIndividual ,
+                   :PersonalSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Arcoverde
+:Daniel_Arcoverde rdf:type owl:NamedIndividual ,
+                           :Member ;
+                  :HasSkills :C_Programming ,
+                             :Java_Programming ;
+                  :IsInAPlace :Recife ;
+                  :SpeakLanguage :English ,
+                                 :Portuguese .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Figueredo
+:Daniel_Figueredo rdf:type owl:NamedIndividual ,
+                           :Member ;
+                  :HasSkills :PHP_Tester ;
+                  :IsInAPlace :Sao_Joao ;
+                  :SpeakLanguage :English ,
+                                 :Portuguese .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_T._Pragg
+:Daniel_T._Pragg rdf:type owl:NamedIndividual ,
+                          :Member ;
+                 :HasEmail :daniel.pragg--gmail.com ;
+                 :HasSkills :Expert_Programmer ,
+                            :JQuery ,
+                            :JSF ,
+                            :JSP ,
+                            :Lead_Developer ,
+                            :Linux ,
+                            :MySQL ,
+                            :PostgreSQL ,
+                            :SQL ,
+                            :SQLServer ,
+                            :Struts ,
+                            :WebDevelopment ;
+                 :IsInAPlace :Sao_Paulo_C ;
+                 :SpeakLanguage :English .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Danillo_Bion
+:Danillo_Bion rdf:type owl:NamedIndividual ,
+                       :Member ;
+              :HasCity :Recife ;
+              :HasLanguage :Portuguese ;
+              :HasSkills :C_Programming ,
+                         :Java_Programming ,
+                         :SQLServer ;
+              :IsInAPlace :Garanhuns .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Database_Administrator
+:Database_Administrator rdf:type owl:NamedIndividual ,
+                                 :UserSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF001
+:EFF001 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "100.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF002
+:EFF002 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "20.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF003
+:EFF003 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "30.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF004
+:EFF004 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "40.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF005
+:EFF005 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "50.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF006
+:EFF006 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "100.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF007
+:EFF007 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "40.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF008
+:EFF008 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "10.5"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF009
+:EFF009 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "70.8"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF010
+:EFF010 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "80.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF011
+:EFF011 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "30.7"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF012
+:EFF012 rdf:type owl:NamedIndividual ,
+                 :Effectiveness ;
+        :Value "12.0"^^xsd:double .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#East
+:East rdf:type owl:NamedIndividual ,
+               :Region .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English
+:English rdf:type owl:NamedIndividual ,
+                  :Language .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Europe
+:Europe rdf:type owl:NamedIndividual ,
+                 :Continent .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Excelent_Oratory
+:Excelent_Oratory rdf:type owl:NamedIndividual ,
+                           :PersonalSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Programmer
+:Expert_Programmer rdf:type owl:NamedIndividual ,
+                            :UserSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Project_Manager
+:Expert_Project_Manager rdf:type owl:NamedIndividual ,
+                                 :UserSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#France
+:France rdf:type owl:NamedIndividual ,
+                 :Country ;
+        :HasContinent :Europe .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#French
+:French rdf:type owl:NamedIndividual ,
+                 :Language .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Funeral_plan
+:Funeral_plan rdf:type owl:NamedIndividual ,
+                       :Project ;
+              :HasProjectPhase :Case_Study ;
+              :HasTeam :Team_Funeral_Plan ;
+              :UseMethodology :Scrum .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Funny
+:Funny rdf:type owl:NamedIndividual ,
+                :PersonalSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Garanhuns
+:Garanhuns rdf:type owl:NamedIndividual ,
+                    :City ;
+           :HasEstate :Pernambuco .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Gas_Station_Self_Service
+:Gas_Station_Self_Service rdf:type owl:NamedIndividual ,
+                                   :Project ;
+                          :HasTeam :Team_Gas ;
+                          :UseMethodology :XP .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#German
+:German rdf:type owl:NamedIndividual ,
+                 :Language .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Good_Looking
+:Good_Looking rdf:type owl:NamedIndividual ,
+                       :PersonalSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Hibernate
+:Hibernate rdf:type owl:NamedIndividual ,
+                    :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Humorous
+:Humorous rdf:type owl:NamedIndividual ,
+                   :PersonalSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Isabelle_Azevedo
+:Isabelle_Azevedo rdf:type owl:NamedIndividual ,
+                           :Member ;
+                  :HasSkills :Backend_Development ,
+                             :Excelent_Oratory ,
+                             :Good_Looking ,
+                             :Java_Programming ,
+                             :PHPProgramming ;
+                  :IsInAPlace :Garanhuns ;
+                  :SpeakLanguage :English ,
+                                 :Portuguese .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Italian
+:Italian rdf:type owl:NamedIndividual ,
+                  :Language .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JQuery
+:JQuery rdf:type owl:NamedIndividual ,
+                 :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSF
+:JSF rdf:type owl:NamedIndividual ,
+              :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSP
+:JSP rdf:type owl:NamedIndividual ,
+              :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Jack_Villa
+:Jack_Villa rdf:type owl:NamedIndividual ,
+                     :Member ;
+            :HasEmail :jack.villa--hotmail.com ;
+            :HasSkills :C_Sharp-Programming ,
+                       :Certified_Professional_for_Requirements_Engineering ,
+                       :Expert_Programmer ,
+                       :Hibernate ,
+                       :Java-SCJD ,
+                       :Java-SCJP ,
+                       :Java_Programming ,
+                       :SQL ,
+                       :SQLServer ,
+                       :WebDevelopment ;
+            :IsInAPlace :New_York_C ;
+            :SpeakLanguage :English ,
+                           :Spanish .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCBCD
+:Java-SCBCD rdf:type owl:NamedIndividual ,
+                     :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCDJWS
+:Java-SCDJWS rdf:type owl:NamedIndividual ,
+                      :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCEA
+:Java-SCEA rdf:type owl:NamedIndividual ,
+                    :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJA
+:Java-SCJA rdf:type owl:NamedIndividual ,
+                    :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJD
+:Java-SCJD rdf:type owl:NamedIndividual ,
+                    :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP
+:Java-SCJP rdf:type owl:NamedIndividual ,
+                    :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCWD
+:Java-SCWD rdf:type owl:NamedIndividual ,
+                    :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SMAD
+:Java-SMAD rdf:type owl:NamedIndividual ,
+                    :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming
+:Java_Programming rdf:type owl:NamedIndividual ,
+                           :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Jeff_A._Donate
+:Jeff_A._Donate rdf:type owl:NamedIndividual ,
+                         :Member ;
+                :HasEmail :jeff.donate--msn.com ;
+                :HasSkills :C_Programming ,
+                           :Java_Programming ,
+                           :Linux ,
+                           :Mobile_Development ,
+                           :SQL ;
+                :IsInAPlace :Sao_Paulo_C ;
+                :SpeakLanguage :English ,
+                               :Spanish .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Joao_Pessoa
+:Joao_Pessoa rdf:type owl:NamedIndividual ,
+                      :City ;
+             :HasEstate :Paraiba .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lajedo
+:Lajedo rdf:type owl:NamedIndividual ,
+                 :City ;
+        :HasEstate :Pernambuco .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lead_Developer
+:Lead_Developer rdf:type owl:NamedIndividual ,
+                         :UserSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lift_Points
+:Lift_Points rdf:type owl:NamedIndividual ,
+                      :ProcessActivity ;
+             :HasRole :Role01 ;
+             :HasSchedule :SC001 ;
+             :HasTask :TSK001 ,
+                      :TSK002 ;
+             :UseArtifact :ART001 .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Linux
+:Linux rdf:type owl:NamedIndividual ,
+                :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Manhattan
+:Manhattan rdf:type owl:NamedIndividual ,
+                    :City .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Marcos_Duarte
+:Marcos_Duarte rdf:type owl:NamedIndividual ,
+                        :Member ;
+               :HasSkills :Excelent_Oratory ,
+                          :Expert_Programmer ,
+                          :Java-SCJP ,
+                          :Java_Programming ,
+                          :Mobile_Development ,
+                          :SQL ,
+                          :SQLServer ,
+                          :Struts ,
+                          :Technical_Leader ,
+                          :WebDevelopment ;
+               :IsInAPlace :Campina_Grande ;
+               :SpeakLanguage :Portuguese .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Midwest
+:Midwest rdf:type owl:NamedIndividual ,
+                  :Region .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Mobile_Development
+:Mobile_Development rdf:type owl:NamedIndividual ,
+                             :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MySQL
+:MySQL rdf:type owl:NamedIndividual ,
+                :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC001
+:NTC001 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP001 ;
+        :Description "In a project in which nor the number of members nor the cities involved were reported, problems related to cultural differences among members happened." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC002
+:NTC002 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP002 ;
+        :Description "In a project in which nor the number of members nor the cities involved were reported,  some members did not have the required level of knowledge." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC003
+:NTC003 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP003 ;
+        :Description "In a project in which nor the number of members nor the cities involved were reported, syncronization problems happened with tasks performed in a distributed manner." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC004
+:NTC004 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP004 ;
+        :Description "In a project with an unknown number of members working in one country, there existed problems in the identification of project risks." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC005
+:NTC005 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP005 ;
+        :Description "In a project with an unknown number of members working in one country, problems with risk mitigation were reported." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC006
+:NTC006 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP006 ;
+        :Description "In a project with an unknown number of members working in 4 different countries there existed problems with the delegation of tasks by the projects managers." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC007
+:NTC007 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP007 ;
+        :Description "In a project in which nor the number of members nor the cities involved were reported, there existed problems related to lack of technical knowledge of members of the team." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC008
+:NTC008 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP008 ;
+        :Description "In a project with 355 members working in 2 different countries, problems in the alocation of tasks were reported, due to national and cultural differences." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC009
+:NTC009 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP009 ;
+        :Description "In a project with 355 members working in 2 different countries, feedback problems from clients and teams happened due to the distance and time zones." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC010
+:NTC010 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP010 ;
+        :Description "In a project with an unknown number of members working in one country, geographical distance led to communication problems among the teams." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC011
+:NTC011 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP011 ;
+        :Description "In a project in which nor the number of members nor the cities involved were reported, problems happened due to the addition of new requirements (both functional and non-functional) during the architecture and modeling steps of the project." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC012
+:NTC012 rdf:type owl:NamedIndividual ,
+                 :NonTechnicalChallenge ;
+        :HasBestPractice :BP012 ;
+        :Description "In a project with an unknown number of members working in one country, communication problems among the teams existed." .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Nervous
+:Nervous rdf:type owl:NamedIndividual ,
+                  :PersonalSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York
+:New_York rdf:type owl:NamedIndividual ,
+                   :Estate ;
+          :IsInARegion :Northeast .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York_C
+:New_York_C rdf:type owl:NamedIndividual ,
+                     :City ;
+            :HasEstate :New_York .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#North
+:North rdf:type owl:NamedIndividual ,
+                :Region .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#North_America
+:North_America rdf:type owl:NamedIndividual ,
+                        :Continent .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Northeast
+:Northeast rdf:type owl:NamedIndividual ,
+                    :Region .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Northwest
+:Northwest rdf:type owl:NamedIndividual ,
+                    :Region .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCA
+:Oracle-OCA rdf:type owl:NamedIndividual ,
+                     :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCE
+:Oracle-OCE rdf:type owl:NamedIndividual ,
+                     :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCM
+:Oracle-OCM rdf:type owl:NamedIndividual ,
+                     :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCP
+:Oracle-OCP rdf:type owl:NamedIndividual ,
+                     :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Order_of_Service
+:Order_of_Service rdf:type owl:NamedIndividual ,
+                           :Project ;
+                  :HasTeam :TeamOS ;
+                  :UseMethodology :XP .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PC0001
+:PC0001 rdf:type owl:NamedIndividual ,
+                 :PersonalCharacteristics ;
+        :Description "You can not work on Saturday because you need to take care of the invalid family member" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PC0002
+:PC0002 rdf:type owl:NamedIndividual ,
+                 :PersonalCharacteristics ;
+        :Description "Exercise every day after work" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPProgramming
+:PHPProgramming rdf:type owl:NamedIndividual ,
+                         :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHP_Tester
+:PHP_Tester rdf:type owl:NamedIndividual ,
+                     :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Paraiba
+:Paraiba rdf:type owl:NamedIndividual ,
+                  :Estate ;
+         :IsInARegion :Northeast .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pernambuco
+:Pernambuco rdf:type owl:NamedIndividual ,
+                     :Estate ;
+            :IsInARegion :Northeast .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pizza_Delivery
+:Pizza_Delivery rdf:type owl:NamedIndividual ,
+                         :Project ;
+                :HasTeam :Team_Pizza_Delivery ;
+                :UseMethodology :Scrum ;
+                :UseResource :eclipse .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Polyglot
+:Polyglot rdf:type owl:NamedIndividual ,
+                   :UserSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese
+:Portuguese rdf:type owl:NamedIndividual ,
+                     :Language .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PostgreSQL
+:PostgreSQL rdf:type owl:NamedIndividual ,
+                     :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project_Manager
+:Project_Manager rdf:type owl:NamedIndividual ,
+                          :UserSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rebecka_Rodrigues
+:Rebecka_Rodrigues rdf:type owl:NamedIndividual ,
+                            :Member ;
+                   :HasSkills :Analista_de_Testes_Certificado ,
+                              :Certified_Professional_for_Requirements_Engineering ,
+                              :Good_Looking ,
+                              :Java_Programming ,
+                              :SQA ,
+                              :SQL ;
+                   :IsInAPlace :Recife ;
+                   :SpeakLanguage :Portuguese .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Recife
+:Recife rdf:type owl:NamedIndividual ,
+                 :City ;
+        :HasEstate :Pernambuco .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Requirements_Gathering
+:Requirements_Gathering rdf:type owl:NamedIndividual ,
+                                 :ProjectActivity .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rio_de_Janeiro
+:Rio_de_Janeiro rdf:type owl:NamedIndividual ,
+                         :Estate ;
+                :IsInARegion :Southeast .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rodrigo_Rocha
+:Rodrigo_Rocha rdf:type owl:NamedIndividual ,
+                        :Member ;
+               :HasCharacteristics :CC0001 ,
+                                   :PC0002 ;
+               :HasSkills :Backend_Development ,
+                          :JQuery ,
+                          :JSP ,
+                          :Java_Programming ,
+                          :Lead_Developer ,
+                          :PHPProgramming ,
+                          :SQL ,
+                          :WebDevelopment ;
+               :IsInAPlace :Joao_Pessoa ;
+               :SpeakLanguage :Portuguese .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role01
+:Role01 rdf:type owl:NamedIndividual ,
+                 :Role .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SC001
+:SC001 rdf:type owl:NamedIndividual ,
+                :Schedule ;
+       :DateTime "16.08.17" ;
+       :Description "Talk to client" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQA
+:SQA rdf:type owl:NamedIndividual ,
+              :UserSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL
+:SQL rdf:type owl:NamedIndividual ,
+              :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer
+:SQLServer rdf:type owl:NamedIndividual ,
+                    :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Joao
+:Sao_Joao rdf:type owl:NamedIndividual ,
+                   :City ;
+          :HasEstate :Pernambuco .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo
+:Sao_Paulo rdf:type owl:NamedIndividual ,
+                    :Estate ;
+           :IsInARegion :Southeast .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo_C
+:Sao_Paulo_C rdf:type owl:NamedIndividual ,
+                      :City .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Scrum
+:Scrum rdf:type owl:NamedIndividual ,
+                :Methodology .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Smart_Seller
+:Smart_Seller rdf:type owl:NamedIndividual ,
+                       :Project ;
+              :HasTeam :Team_Smart_Seller ;
+              :UseMethodology :XP .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#South
+:South rdf:type owl:NamedIndividual ,
+                :Region .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#South_America
+:South_America rdf:type owl:NamedIndividual ,
+                        :Continent .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Southeast
+:Southeast rdf:type owl:NamedIndividual ,
+                    :Region .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Southwest
+:Southwest rdf:type owl:NamedIndividual ,
+                    :Region .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Spanish
+:Spanish rdf:type owl:NamedIndividual ,
+                  :Language .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Struts
+:Struts rdf:type owl:NamedIndividual ,
+                 :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TSK001
+:TSK001 rdf:type owl:NamedIndividual ,
+                 :Task .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TSK002
+:TSK002 rdf:type owl:NamedIndividual ,
+                 :Task .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Talk_Customer
+:Talk_Customer rdf:type owl:NamedIndividual ,
+                        :ProcessPhase ;
+               :HasProcessActivity :Lift_Points .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamOS
+:TeamOS rdf:type owl:NamedIndividual ,
+                 :Team ;
+        :HasMember :Arthur_Alexandre .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamRodrigo
+:TeamRodrigo rdf:type owl:NamedIndividual ,
+                      :Team ;
+             :HasMember :Daniel_Arcoverde ,
+                        :Daniel_T._Pragg ,
+                        :Rebecka_Rodrigues ,
+                        :Rodrigo_Rocha .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Funeral_Plan
+:Team_Funeral_Plan rdf:type owl:NamedIndividual ,
+                            :Team ;
+                   :HasMember :Arthur_Alexandre ,
+                              :Daniel_Figueredo ,
+                              :Isabelle_Azevedo ,
+                              :Tullyo_Araujo .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Gas
+:Team_Gas rdf:type owl:NamedIndividual ,
+                   :Team ;
+          :HasMember :Arthur_Alexandre ,
+                     :Isabelle_Azevedo .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Pizza_Delivery
+:Team_Pizza_Delivery rdf:type owl:NamedIndividual ,
+                              :Team ;
+                     :HasMember :Danillo_Bion ,
+                                :Rodrigo_Rocha .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Smart_Seller
+:Team_Smart_Seller rdf:type owl:NamedIndividual ,
+                            :Team ;
+                   :HasMember :Arthur_Alexandre .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Technical_Leader
+:Technical_Leader rdf:type owl:NamedIndividual ,
+                           :UserSkill .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Thomas_Taylor
+:Thomas_Taylor rdf:type owl:NamedIndividual ,
+                        :Member ;
+               :HasEmail :thomas.taylor--hotmail.com ;
+               :HasSkills :Hibernate ,
+                          :JQuery ,
+                          :JSF ,
+                          :JSP ,
+                          :Java-SCBCD ,
+                          :Java-SCDJWS ,
+                          :Java-SCEA ,
+                          :Java-SCJA ,
+                          :Java-SCJD ,
+                          :Java-SCJP ,
+                          :Java-SCWD ,
+                          :Java_Programming ,
+                          :Lead_Developer ,
+                          :SQL ,
+                          :SQLServer ,
+                          :Struts ;
+               :IsInAPlace :New_York_C ;
+               :SpeakLanguage :English .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TimeUnico
+:TimeUnico rdf:type owl:NamedIndividual ,
+                    :Team ;
+           :HasMember :Daniel_Arcoverde ,
+                      :Marcos_Duarte ,
+                      :Rebecka_Rodrigues ,
+                      :Rodrigo_Rocha .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tullyo_Araujo
+:Tullyo_Araujo rdf:type owl:NamedIndividual ,
+                        :Member ;
+               :HasSkills :Confused ;
+               :IsInAPlace :Garanhuns .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#USA
+:USA rdf:type owl:NamedIndividual ,
+              :Country ;
+     :HasContinent :North_America ;
+     :HasEstate :New_York .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Vancouver
+:Vancouver rdf:type owl:NamedIndividual ,
+                    :City .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Vince_S._Brest
+:Vince_S._Brest rdf:type owl:NamedIndividual ,
+                         :Member ;
+                :HasEmail :vince.brest--gmail.com ;
+                :HasSkills :C_Programming ,
+                           :Expert_Project_Manager ,
+                           :Java-SCJP ,
+                           :Java_Programming ;
+                :IsInAPlace :Manhattan ;
+                :SpeakLanguage :English .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment
+:WebDevelopment rdf:type owl:NamedIndividual ,
+                         :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#West
+:West rdf:type owl:NamedIndividual ,
+               :Region .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#XP
+:XP rdf:type owl:NamedIndividual ,
+             :Methodology .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#bruce.straight--gmail.com
+:bruce.straight--gmail.com rdf:type owl:NamedIndividual ,
+                                    :Email .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#daniel.pragg--gmail.com
+:daniel.pragg--gmail.com rdf:type owl:NamedIndividual ,
+                                  :Email .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#eclipse
+:eclipse rdf:type owl:NamedIndividual ,
+                  :CodingTool ;
+         :SupportToAvoidChallenge :NTC001 ;
+         :SupportToSolveChallenge :NTC002 ;
+         :Description "IDE using for coding in many languages" .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#jack.villa--hotmail.com
+:jack.villa--hotmail.com rdf:type owl:NamedIndividual ,
+                                  :Email .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#jeff.donate--msn.com
+:jeff.donate--msn.com rdf:type owl:NamedIndividual ,
+                               :Email .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#thomas.taylor--hotmail.com
+:thomas.taylor--hotmail.com rdf:type owl:NamedIndividual ,
+                                     :Email .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#vince.brest--gmail.com
+:vince.brest--gmail.com rdf:type owl:NamedIndividual ,
+                                 :Email .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C++Programming
+<http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C++Programming> rdf:type owl:NamedIndividual ,
+                                                                                                :UserKnowledge .
+
+
+###  http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#arthurkbe@gmail.com
+<http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#arthurkbe@gmail.com> rdf:type owl:NamedIndividual ,
+                                                                                                     :Email .
+
+
+###  Generated by the OWL API (version 5.1.9) https://github.com/owlcs/owlapi/

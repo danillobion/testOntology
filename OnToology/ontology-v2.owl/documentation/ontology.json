@@ -1,0 +1,3469 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Artifact"
+    }, {
+      "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalCharacteristics"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid17"
+    }, {
+      "@id" : "_:genid15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TechnicalChallenge"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CulturalCharacteristics"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#District"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid26"
+    }, {
+      "@id" : "_:genid24"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasMember"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "_:genid5"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent"
+    }, {
+      "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate"
+    }, {
+      "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#complementOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Arthur Gomes"
+  }, {
+    "@value" : "Rodrigo Gusmão"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@value" : "Distributed Knowledge Development Ontology - DKDOnto"
+  } ],
+  "http://purl.org/dc/elements/1.1/publisher" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : ""
+  } ],
+  "http://purl.org/dc/elements/1.1/rights" : [ {
+    "@value" : "http://creativecommons.org/licenses/by/3.0/"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "DKDOnto"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#'Time_Zone_Of'",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fuso horário de"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Timezone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Time Zone Of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTimeZone"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ART001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Artifact" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Africa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Analista_de_Testes_Certificado",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AnalysisTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ferramenta de analise"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Analysis Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Android_Development",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ArchitectureTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ferramenta de Arquitetura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Architecture Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DesignTool"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasCharacteristics" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CC0001"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PC0001"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#arthurkbe@gmail.com"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Android_Development"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Backend_Development"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPProgramming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PostgreSQL"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Garanhuns"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Artifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Categoria de recursos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Artifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Resources"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Asia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Asp.NET",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AssistMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Membro Assistente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Artifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Assist Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AssistRoles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Regras auxiliares"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Assist Roles"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AssistTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Tarefas auxiliares"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Artifact"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Characteristics"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Assist Task"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Task"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AsynchronousCommunication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Asynchronous_Communication definem os tipos de comunicação que o contato entre o locutor e o ouvinte é feito em tempos distintos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Asynchronous Communication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Comunication"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Australia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Training sessions on cultural differences with all members."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Implementation of techniques for knowledge transfer among members."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF002"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Scheduling of face-to-face meetings in times reasonably compatible with all members aiming a better integration."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF003"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Analyse the hierarchy of problems, so as to determine if one problem is led by another and from that identify risks."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF004"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Perform risk management individually and analyse the impact over the hierarchy."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF005"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Evaluate each team member so a precise picture of their skills may be obtained."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF006"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Delegation of tasks according to each member's knowledge and interests, whenever possible."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF007"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Interview best members of each team, so as to delegate the rights tasks according to their culture and skills."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF008"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Analyse each team's time zone, so as to keep the project running 24/7."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF009"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Keep documentation of each team up-to-date and available to all members of the project in order to minimize the number of travels and meetings."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF010"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Use an UML extension model."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF011"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Assign a leader for each team, who are to be responsible for the communication among all teams."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF012"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Backend_Development",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BelongPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Pertence ao lugar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CulturalCharacteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Belong Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Best Pratices são as praticas recomendadas a se tomar para um determinado Challenge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Best Practice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPracticeOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Melhor prática de"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Best Practice Of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Brazil",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasContinent" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#South_America"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasRegion" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Midwest"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#North"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Northeast"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#South"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Southeast"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Bruce_Straight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#bruce.straight--gmail.com"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Confused"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Database_Administrator"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCA"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCE"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCM"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPProgramming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Vancouver"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C++Programming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CC0001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CulturalCharacteristics" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Your religion does not allow you to eat meat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Sharp-Programming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Campina_Grande",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEstate" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Paraiba"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Case_Study",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProcessPhase" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Talk_Customer"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProjectActivity" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Requirements_Gathering"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Certified_Professional_for_Requirements_Engineering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Challenge são os desafios existentes em um projeto DDS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Challenge"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Characteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Characteristics é um elemento que ajuda na construção de uma ideia, conceito e da noção de alguém ou alguma coisa. no contexto da ontologia são elementos que definem determinado membro do projeto."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Characteristics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CharacteristicsOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Caracteristicas de"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Characteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Characteristics Of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Chief_Technical_Officer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CitixMobile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProjectPhase" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Case_Study"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTeam" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamRodrigo"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseMethodology" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Scrum"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseResource" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#eclipse"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define em que cidade o individuo se encontra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CodingTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ferramenta de codificação"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Coding Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ComunicatesMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Comunica ao membro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Comunicates Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Comunication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Comunicação definem as classes de interação vocal ou por escrito entre os membros dos projetos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Comunication"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ComunicationTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ferramenta de Comunicação"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Comunication Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Confused",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define em que continente o individuo se encontra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Continent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  }, {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define em que país o individuo se encontra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  }, {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CreateArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Cria artefato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Meeting"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Task"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Create Artifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Artifact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CulturalCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "CulturalCharacteristics é uma subclasse de Characteristics onde por sua vez define detalhes culturais dos membros"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Cultural Characteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Characteristics"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Arcoverde",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Recife"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Figueredo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHP_Tester"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Joao"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_T._Pragg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#daniel.pragg--gmail.com"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Programmer"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JQuery"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSF"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSP"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lead_Developer"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Linux"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MySQL"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PostgreSQL"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Struts"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo_C"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Danillo_Bion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasCity" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Recife"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Garanhuns"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Database_Administrator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DateTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Date time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : " Date time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DefineRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define regra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Methodology"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Define Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Descrição"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Characteristics"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Resources"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Description"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DesignTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ferramenta de Design"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Design Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#District",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define em que distrito o individuo se encontra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "District"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DocumentationTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ferramenta de documentação"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Documentation Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "100.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "20.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "30.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "40.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "50.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "100.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "40.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "10.5"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "70.8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "80.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "30.7"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EFF012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "12.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#East",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Effectiveness define o quanto uma best pratice obteve de efetividade sobre determinado challenge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Effectiveness"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EffectivenessOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Eficácia do"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Effectiveness Of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "email é um tipo de comunicação assincrona"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Email"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AsynchronousCommunication"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email_Of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Email de"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Email Of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define em que estado o individuo se encontra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Estate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Europe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Excelent_Oratory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Programmer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Project_Manager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#FaceToFace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Face to face é uma maneira de se aplicar o meeting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Face to Face"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Meeting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#France",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasContinent" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Europe"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#French",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Funeral_plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProjectPhase" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Case_Study"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTeam" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Funeral_Plan"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseMethodology" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Scrum"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Funny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Garanhuns",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEstate" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pernambuco"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Gas_Station_Self_Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTeam" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Gas"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseMethodology" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#XP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#German",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Good_Looking",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HappensInPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Acontece em determinado local"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#FaceToFace"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Happens In Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Tem melhores praticas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Best Practice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasChallenge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem desafio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Challenge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem caracteristicas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Characteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Characteristics"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CharacteristicsOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasCity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Tem cidade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#District"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasContinent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem continente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Continent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasCulturalCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem caracteristicas culturais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Cultural Characteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CulturalCharacteristics"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEffectiveness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem efetividade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Effectiveness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem email"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Email"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email_Of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEstate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Tem Estado"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Estate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Tem Linguagem"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Comunication"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LanguageOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Tem Membro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsPartOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProcessActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tem atividade de processo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Has Process Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProcessPhase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Tem fases de processo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Process Phase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhaseOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProjectActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tem atividade de projeto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Has Project Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProjectPhase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem fases de projeto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Project Phase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasRegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Tem região"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region_Of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem função"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Methodology"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RoleOf"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSchedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem cronograma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Schedule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule_Of"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem habilidade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Skills"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem tarefa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Task"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Task"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTeam",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTimeZone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem fuso horario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Time Zone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Timezone"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTraining",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Tem Treinamento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "pt",
+    "@value" : "Has Training"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Training"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem versão"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Version"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Version"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasWorkspace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "tem area de trabalho"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has Workspace"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Workspace"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Hibernate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Humorous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#InstantMessages",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Instant Menssages é um meio de comunicação assincrona"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Instant Menssages"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AsynchronousCommunication"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Está em um lugar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Is In A Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInARegion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Está em uma região"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Is in a Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsPartOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Faz parte do"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Is Part of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Isabelle_Azevedo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Backend_Development"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Excelent_Oratory"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Good_Looking"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPProgramming"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Garanhuns"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Italian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JQuery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSF",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Jack_Villa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#jack.villa--hotmail.com"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Sharp-Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Certified_Professional_for_Requirements_Engineering"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Programmer"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Hibernate"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJD"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York_C"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Spanish"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCBCD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCDJWS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCEA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCWD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SMAD",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Jeff_A._Donate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#jeff.donate--msn.com"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Linux"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Mobile_Development"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo_C"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Spanish"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Joao_Pessoa",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEstate" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Paraiba"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lajedo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEstate" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pernambuco"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define o idioma falado pelo membro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Language"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Version"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LanguageOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Linguagem De "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Language Of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Comunication"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lead_Developer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lift_Points",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasRole" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role01"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSchedule" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SC001"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTask" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TSK001"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TSK002"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseArtifact" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ART001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Linux",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ManagementTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ferramenta de gerenciamento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Management Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Manhattan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Marcos_Duarte",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Excelent_Oratory"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Programmer"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Mobile_Development"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Struts"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Technical_Leader"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Campina_Grande"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Meeting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Meeting é um tipo de comunicação sincrona"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Meeting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SynchronousCommunication"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Member é a entidade que representa uma pessoa envolvida ou que pode se envolver em um determinado projeto."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MemberEmail",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "email do membro"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Member email"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Methodology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define o conjunto de regras aplicados em determinada atividade"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Methodology"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Midwest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Mobile_Development",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MySQL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project in which nor the number of members nor the cities involved were reported, problems related to cultural differences among members happened."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP001"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project in which nor the number of members nor the cities involved were reported,  some members did not have the required level of knowledge."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP002"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project in which nor the number of members nor the cities involved were reported, syncronization problems happened with tasks performed in a distributed manner."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP003"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project with an unknown number of members working in one country, there existed problems in the identification of project risks."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP004"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project with an unknown number of members working in one country, problems with risk mitigation were reported."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP005"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC006",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project with an unknown number of members working in 4 different countries there existed problems with the delegation of tasks by the projects managers."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP006"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC007",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project in which nor the number of members nor the cities involved were reported, there existed problems related to lack of technical knowledge of members of the team."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP007"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC008",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project with 355 members working in 2 different countries, problems in the alocation of tasks were reported, due to national and cultural differences."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP008"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC009",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project with 355 members working in 2 different countries, feedback problems from clients and teams happened due to the distance and time zones."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP009"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC010",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project with an unknown number of members working in one country, geographical distance led to communication problems among the teams."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP010"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC011",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project in which nor the number of members nor the cities involved were reported, problems happened due to the addition of new requirements (both functional and non-functional) during the architecture and modeling steps of the project."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP011"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC012",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "In a project with an unknown number of members working in one country, communication problems among the teams existed."
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasBestPractice" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BP012"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Nervous",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInARegion" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Northeast"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York_C",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEstate" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NonTechnicalChallenge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "NonTechnicalChallenge refere-se ao desafios ligados a assuntos humanos do desenvolvimento de um projeto, onde esses por sua vez fogem do cunho tecnologico."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Non Technical Challenge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge"
+  }, {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#North",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#North_America",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Northeast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Northwest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCE",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCM",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Order_of_Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTeam" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamOS"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseMethodology" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#XP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PC0001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalCharacteristics" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "You can not work on Saturday because you need to take care of the invalid family member"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PC0002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalCharacteristics" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Exercise every day after work"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPProgramming",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHP_Tester",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Paraiba",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInARegion" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Northeast"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ParticipateMeeting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Participa de conversa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Participate Meeting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Meeting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PerformTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "executa tarefa"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Perform Task"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Task"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pernambuco",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInARegion" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Northeast"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalCharacteristics",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "PersonalCharacteristics é uma subclasse de Characteristics onde por sua vez define detalhes pessoais dos membros"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Personal Characteristics"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Characteristics"
+  }, {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalSkill",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Habilidades Pessoais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Personal Skill"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  }, {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pizza_Delivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTeam" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Pizza_Delivery"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseMethodology" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Scrum"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseResource" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#eclipse"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define o posicionamento de um certo individuo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Version"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PlayRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "exerce função"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Play Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Polyglot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PostgreSQL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define as atividade contidas em uma determinada fase de um processo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Process Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "descreve as fases de um processo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Process Phase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhaseOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Fase do processo de"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Process Phase Of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define e agrega todos as informações de uma atividade realizada que tem como objetivo um produto final"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define as atividades realizadas em uma fase de projeto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Project Activity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define as fases dos projetos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Project Phase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project_Manager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PrototypingTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ferramenta de prototipo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Prototyping Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DesignTool"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rebecka_Rodrigues",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Analista_de_Testes_Certificado"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Certified_Professional_for_Requirements_Engineering"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Good_Looking"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQA"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Recife"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Recife",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEstate" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pernambuco"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define em que região o individuo se encontra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  }, {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region_Of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Região de"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Region Of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ReportBestPractice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "reporta uma boa pratica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Report Best Practice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ReportChallenge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Reporta desafios"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Report Challenge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Requirements_Gathering",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Resources",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define os recursos utilizados no projeto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Resources"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rio_de_Janeiro",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInARegion" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Southeast"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rodrigo_Rocha",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasCharacteristics" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CC0001"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PC0002"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Backend_Development"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JQuery"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSP"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lead_Developer"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPProgramming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Joao_Pessoa"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Função"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Role"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RoleOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Papel de"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Role Of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Methodology"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SC001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DateTime" : [ {
+    "@value" : "16.08.17"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "Talk to client"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Joao",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEstate" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pernambuco"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInARegion" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Southeast"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo_C",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Prazo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Schedule"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule_Of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Horario de"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Schedule Of\n"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Scrum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Methodology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SelectTools",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "seleciona ferramentas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Select Tools"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Habilidades"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Skills"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Smart_Seller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTeam" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Smart_Seller"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseMethodology" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#XP"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#South",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#South_America",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Southeast",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Southwest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Spanish",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "fala idioma"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Speak Language"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Language"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#StorageTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ferramenta de armazenamento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Storage Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#StoreResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "armazenar recursos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Workspace"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Store Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Resources"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Struts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SupportToAvoidChallenge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Apoio para evitar o desafio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#FaceToFace"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Resources"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Support to Avoid Challenge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SupportToDefineTasks",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Suporte para definir tarefas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Support to Define Tasks"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Task"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SupportToSolveChallenge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Suporte para resolver desafios"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Meeting"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Resources"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Support to Solve Challenge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SynchronousCommunication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Synchronous_Communication definem os tipos de comunicação que o contato entre o locutor e o ouvinte é feito simultaneamente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Synchronous Communication"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Comunication"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TSK001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Task" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TSK002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Task" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Talk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Fala"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Meeting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "pt",
+    "@value" : "Talk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Talk_Customer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasProcessActivity" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lift_Points"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Task",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Tarefas"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Task"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Time"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Team"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid22"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamOS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasMember" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamRodrigo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasMember" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Arcoverde"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_T._Pragg"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rebecka_Rodrigues"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rodrigo_Rocha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Funeral_Plan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasMember" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Figueredo"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Isabelle_Azevedo"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tullyo_Araujo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Gas",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasMember" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Isabelle_Azevedo"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Pizza_Delivery",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasMember" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Danillo_Bion"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rodrigo_Rocha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Smart_Seller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasMember" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TechnicalChallenge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "TechnicalChallenge são os desafios diretamente relacionados ao uso de tecnologia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Technical Challenge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Challenge"
+  }, {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Technical_Leader",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TestTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Ferramenta de Teste"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Test Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Thomas_Taylor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#thomas.taylor--hotmail.com"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Hibernate"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JQuery"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSF"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSP"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCBCD"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCDJWS"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCEA"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJA"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJD"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCWD"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lead_Developer"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Struts"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York_C"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TimeUnico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasMember" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Arcoverde"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Marcos_Duarte"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rebecka_Rodrigues"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rodrigo_Rocha"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Timezone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Define em que fuso horário o individuo se encontra"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Timezone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Categoria de recursos"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tools"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Resources"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Training",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Treino"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Traning"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tullyo_Araujo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Confused"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Garanhuns"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#USA",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasContinent" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#North_America"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEstate" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseArtifact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "usa artefato"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Task"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Use Artifact"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Artifact"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseBestPractice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "usa melhor pratica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Use Best Practice"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BestPractice"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseComunicationTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "usa ferramenta de comunicação"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Comunication"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Use Comunication Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ComunicationTool"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseMethodology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "usa methodologia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Use Methodology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Methodology"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UsePhase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "usa fase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Methodology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Use Phase"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseResource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Usa Recurso"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Use Resource"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Resources"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UseTool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Usa Ferramenta"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Use Tool"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tools"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "ato de perceber ou compreender por meio da razão e/ou da experiência."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "User Knowledge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Habilidades pessoais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "User Skill"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserTraining",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Treinamento pessoais"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "User Training"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Skills"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Value",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Valor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Effectiveness"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Value"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Vancouver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Version",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Versão"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Version"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Vince_S._Brest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#vince.brest--gmail.com"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSkills" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Project_Manager"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP"
+  }, {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsInAPlace" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Manhattan"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SpeakLanguage" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Virtual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Virtual é uma maneira de se aplicar o meeting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Virtual"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Meeting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#West",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Workspace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "pt",
+    "@value" : "Area de trabalho"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Workspace"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#XP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Methodology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#arthurkbe@gmail.com",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#bruce.straight--gmail.com",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#daniel.pragg--gmail.com",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#eclipse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CodingTool" ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Description" : [ {
+    "@value" : "IDE using for coding in many languages"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SupportToAvoidChallenge" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC001"
+  } ],
+  "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SupportToSolveChallenge" : [ {
+    "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NTC002"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#jack.villa--hotmail.com",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#jeff.donate--msn.com",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#thomas.taylor--hotmail.com",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email" ]
+}, {
+  "@id" : "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#vince.brest--gmail.com",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email" ]
+} ]
